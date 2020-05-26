@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="project">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Persian">
+    <meta name="author" content="علی شرعیات">
+<!--    <link rel="icon" href="assets/image/logo.png">-->
+<!--    <meta name="theme-color" content="#FA4252">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/bootstrap/bootstrap4-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body class="rtl">
+<div class="container">
+    <div class="row">
+        <div class="form-ctrl position-relative my-4 border-radius-17 px-2 d-flex">
+            <h5 class="position-absolute bg-white px-2">فرم ثبت نام</h5>
+<!--            <ul class="form-sidebar col-xl-3 px-0 pt-3 mb-0 pb-3">-->
+<!--                <li class="active">-->
+<!--                    <a class="py-2 pr-1 d-block" href="#">رزومه و مدارک من</a>-->
+<!--                </li>-->
+<!--                <li class="">-->
+<!--                    <a class="py-2 pr-1 d-block" href="#">پیام های من</a>-->
+<!--                </li>-->
+<!--                <li class="">-->
+<!--                    <a class="py-2 pr-1 d-block" href="#">مقالات منتخب من</a>-->
+<!--                </li>-->
+<!--                <li class="">-->
+<!--                    <a class="py-2 pr-1 d-block" href="#">فیش ها ویادداشت های من</a>-->
+<!--                </li>-->
+<!--                <li class="">-->
+<!--                    <a class="py-2 pr-1 d-block" href="#">طرح های پیشنهادی من</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+            <div class="col-xl-12 pt-4">
+                <form class="w-100 d-flex flex-wrap custom-form">
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
+                        <div class="avatar col-xl-2 position-relative pr-0">
+                            <div class="position-relative rounded-circle overflow-hidden cursor-pointer">
+                                <img src="assets/img/avatar/4.png" class="w-100 h-100">
+                                <input type="file" class="position-absolute cursor-pointer">
+                            </div>
+                        </div>
+                        <div class="col-xl-10 pl-0">
+                            <label for="name-input">نام</label>
+                            <input type="text" class="form-control" id="name-input" aria-describedby="nameInput">
+                        </div>
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                        <div class="w-100">
+                            <label for="family">نام خوانوادگی</label>
+                            <input type="text" class="form-control" id="family" aria-describedby="family">
+                        </div>
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="meli">شماره ملی</label>
+                        <input type="number" class="form-control" id="meli" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="email">ایمیل</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="telephone">تلفن همراه</label>
+                        <input type="text" class="form-control" id="telephone" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="age">سن</label>
+                        <select class="custom-select" id="age" required>
+                            <option selected value="مرد">مرد</option>
+                            <option value="زن">زن</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label>محل سکونت</label>
+                        <div class="d-flex">
+                            <div class="pl-1 pr-0 w-100 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <select class="custom-select" required>
+                                    <option selected disabled value="استان">استان</option>
+                                    <option value="قم">قم</option>
+                                </select>
+                            </div>
+                            <div class="pr-1 pl-0 w-100 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <select class="custom-select" required>
+                                    <option selected disabled value="شهر">شهر</option>
+                                    <option value="قم">قم</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="Condition">وضعیت</label>
+                        <input type="text" class="form-control" id="Condition" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="Registration-Date">تاریخ ثبت نام</label>
+                        <input type="text" class="form-control" disabled id="Registration-Date" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="Last-visit">آخرین مراجعه</label>
+                        <input type="text" class="form-control" disabled id="Last-visit" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label>رول</label>
+                        <div class="d-flex">
+                            <div class="pl-1 pr-0 w-100 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <select class="custom-select" required>
+                                    <option selected disabled value="استان">رول ها</option>
+                                    <option value="admin">admin</option>
+                                    <option value="مدیر محتوا">مدیر محتوا</option>
+                                    <option value="مسجدی">مسجدی</option>
+                                    <option value="امام جماعت">امام جماعت</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="username">نام کاربری </label>
+                        <input type="text" class="form-control" id="username" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <label for="password">کلمه عبور</label>
+                        <input type="password" class="form-control dir-ltr" id="password" aria-describedby="family">
+                    </div>
+                    <div class="form-group col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <button type="button" class="btn btn-outline-success">ثبت</button>
+                        <button type="button" class="btn btn-outline-danger">انصراف</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

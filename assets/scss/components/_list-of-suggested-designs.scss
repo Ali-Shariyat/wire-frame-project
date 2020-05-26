@@ -1,0 +1,10 @@
+.list-of-suggested-designs {
+  .title {
+    border-top: 1px solid $color-black;
+    h4 {
+      top: -18px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+}

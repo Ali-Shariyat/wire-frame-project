@@ -1,0 +1,36 @@
+.form-ctrl{
+  border: 1px solid $color-dove-gray;
+  > h5{
+    top: -14px;
+    right: 15px;
+  }
+  .form-sidebar{
+    border-left: 1px solid $color-alto-2;
+    li{
+      a{
+        border-right: 2px solid $color-gallery-3;
+        &:hover{
+          border-right: 2px solid $color-tuscany;
+        }
+      }
+      &.active{
+        a{
+          border-right: 2px solid $color-tuscany;
+        }
+      }
+    }
+  }
+  .custom-form{
+    .avatar{
+      > div{
+        input{
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

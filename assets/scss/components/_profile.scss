@@ -1,0 +1,63 @@
+.profile-CV{
+  .profile-sidebar{
+    width: 300px;
+    border-left: 2px solid $color-concrete;
+    .avatar{
+      width: 60px;
+      height: 60px;
+    }
+    .profile-tabs{
+      li{
+        a{
+          border-radius: 50px 0 0 50px;
+          &.active{
+            background-color: $color-picasso;
+          }
+          &:not(.active):hover{
+            background-color: $color-alabaster;
+          }
+        }
+      }
+    }
+  }
+  .profile-main{
+    width: calc(100% - 300px);
+    .upload-box{
+      > div{
+        border-top: 1px solid $color-dove-gray;
+        > h5{
+          top: -14px;
+          right: 15px;
+        }
+        .upload-btn{
+          input{
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+          }
+        }
+        .uploaded-img{
+          margin: 0 0 0 -20px;
+          li{
+            > div{
+              border: 1px solid #000;
+              border-radius: 20px;
+              overflow: hidden;
+              .delete{
+                right: 10px;
+                background-color: rgba(255, 255, 255, 0.5);
+                top: 10px;
+                transition: all .2s ease;
+                &:hover{
+                  background-color: $color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
