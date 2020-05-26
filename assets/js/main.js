@@ -27,4 +27,10 @@ $("[data-add-to-modal] .this-img").click(function () {
 $(".black-page").click(function () {
     $(".black-page,.custom-modal").fadeOut();
     // $(".custom-modal .main-carousel").empty();
-})
+});
+$(".profile-sidebar .profile-tabs li a").click(function (e) {
+    var _self = $(this);
+    _self.addClass("active").parents("li").siblings("li").find("a").removeClass("active")
+    _self.parents(".profile-sidebar").siblings(".profile-main").find("> ul > li").eq(_self.parents("li").index()).addClass("active").siblings("li").removeClass("active");
+    e.preventDefault();
+});

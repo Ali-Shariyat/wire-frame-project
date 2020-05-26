@@ -45,7 +45,7 @@
             </div>
             <form class="profile-main mt-5" action="">
                 <ul>
-                    <li class="d-flex flex-wrap">
+                    <li class="d-flex flex-wrap active">
                         <div class="pr-4 w-100 d-flex flex-wrap">
                             <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                 <label for="History-type-1">نوع سوابق و فعالیت ها</label>
@@ -143,7 +143,7 @@
                                         <div class="d-flex flex-wrap align-items-start flex-column">
                                             <div class="position-relative">
                                                 <a href="" class="position-absolute delete px-2 border-radius-17 d-none">حذف عکس</a>
-                                                <img src="assets/img/uploaded/Img%20(4).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
                                             </div>
                                             <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
                                                 <p>توضیحات</p>
@@ -158,7 +158,436 @@
                                         <div class="d-flex flex-wrap align-items-start flex-column">
                                             <div class="position-relative">
                                                 <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(5).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 flex-2">
+                                                <p>توضیحات </p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-coral-red">رد</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-atomic-tangerine">منتظر</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-wrap">
+                        <div class="pr-4 w-100 d-flex flex-wrap">
+                            <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <label for="History-type-2">نوع سوابق و فعالیت ها</label>
+                                <select class="custom-select" id="History-type-2" required>
+                                    <option selected value="فرهنگی">فرهنگی</option>
+                                    <option value="قران-نهج البلاغه">قران-نهج البلاغه</option>
+                                    <option value="تربیتی">تربیتی</option>
+                                    <option value="حقوقی">حقوقی</option>
+                                    <option value="هنری رسانه ای">هنری رسانه ای</option>
+                                    <option value="رایانه">رایانه</option>
+                                    <option value="ورزشی">ورزشی</option>
+                                    <option value="زبان خارجی">زبان خارجی</option>
+                                    <option value="اجرایی">اجرایی</option>
+                                    <option value="اداری">اداری</option>
+                                    <option value="اداری">اداری</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="timer-2">مدت زمان</label>
+                                    <input type="text" class="form-control" id="timer-2" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-9 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="Description-3">توضیحات</label>
+                                    <input type="text" class="form-control" id="Description-3" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                <button type="button" class="btn btn-outline-success">افزودن</button>
+
+                            </div>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">id</th>
+                                    <th scope="col">عنوان فعالیت</th>
+                                    <th scope="col">مدت زمان</th>
+                                    <th scope="col">توضیحات</th>
+                                    <th scope="col" class="text-center">عملیات</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>عنوان اول</td>
+                                    <td>۲۰ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>عنوان دوم</td>
+                                    <td>۲ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>عنوان سوم</td>
+                                    <td>۳ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="upload-box w-100 px-3">
+                            <div class="position-relative my-4 px-2 d-flex flex-wrap w-100 py-4">
+                                <h5 class="position-absolute bg-white px-2">فایل ها</h5>
+                                <div class="form-group col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                    <button type="button" class="btn btn-outline-info upload-btn position-relative ml-1">
+                                        آپلود عکس
+                                        <input type="file" class="custom-file-input position-absolute" id="customFile-2">
+                                    </button>
+                                    <div class="form-group col-xl-7 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap mb-0">
+                                        <div class="w-100 d-flex">
+                                            <label for="Description-4" class="pl-3 d-flex align-items-center pt-1">توضیحات</label>
+                                            <input type="text" class="form-control" id="Description-4" aria-describedby="family">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-success mr-2">افزودن</button>
+
+                                </div>
+                                <ul class="d-flex flex-wrap uploaded-img" data-add-to-modal="img-modal">
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17 d-none">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-malachite">تایید</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(4).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 flex-2">
+                                                <p>توضیحات </p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-coral-red">رد</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-atomic-tangerine">منتظر</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-wrap">
+                        <div class="pr-4 w-100 d-flex flex-wrap">
+                            <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <label for="History-type-3">نوع سوابق و فعالیت ها</label>
+                                <select class="custom-select" id="History-type-3" required>
+                                    <option selected value="فرهنگی">فرهنگی</option>
+                                    <option value="قران-نهج البلاغه">قران-نهج البلاغه</option>
+                                    <option value="تربیتی">تربیتی</option>
+                                    <option value="حقوقی">حقوقی</option>
+                                    <option value="هنری رسانه ای">هنری رسانه ای</option>
+                                    <option value="رایانه">رایانه</option>
+                                    <option value="ورزشی">ورزشی</option>
+                                    <option value="زبان خارجی">زبان خارجی</option>
+                                    <option value="اجرایی">اجرایی</option>
+                                    <option value="اداری">اداری</option>
+                                    <option value="اداری">اداری</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="timer-3">مدت زمان</label>
+                                    <input type="text" class="form-control" id="timer-3" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-9 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="Description-5">توضیحات</label>
+                                    <input type="text" class="form-control" id="Description-5" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                <button type="button" class="btn btn-outline-success">افزودن</button>
+
+                            </div>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">id</th>
+                                    <th scope="col">عنوان فعالیت</th>
+                                    <th scope="col">مدت زمان</th>
+                                    <th scope="col">توضیحات</th>
+                                    <th scope="col" class="text-center">عملیات</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>عنوان اول</td>
+                                    <td>۲۰ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>عنوان دوم</td>
+                                    <td>۲ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>عنوان سوم</td>
+                                    <td>۳ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="upload-box w-100 px-3">
+                            <div class="position-relative my-4 px-2 d-flex flex-wrap w-100 py-4">
+                                <h5 class="position-absolute bg-white px-2">فایل ها</h5>
+                                <div class="form-group col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                    <button type="button" class="btn btn-outline-info upload-btn position-relative ml-1">
+                                        آپلود عکس
+                                        <input type="file" class="custom-file-input position-absolute" id="customFile-3">
+                                    </button>
+                                    <div class="form-group col-xl-7 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap mb-0">
+                                        <div class="w-100 d-flex">
+                                            <label for="Description-6" class="pl-3 d-flex align-items-center pt-1">توضیحات</label>
+                                            <input type="text" class="form-control" id="Description-6" aria-describedby="family">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-success mr-2">افزودن</button>
+
+                                </div>
+                                <ul class="d-flex flex-wrap uploaded-img" data-add-to-modal="img-modal">
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17 d-none">حذف عکس</a>
                                                 <img src="assets/img/uploaded/Img%20(6).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-malachite">تایید</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 flex-2">
+                                                <p>توضیحات </p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-coral-red">رد</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-atomic-tangerine">منتظر</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-wrap">
+                        <div class="pr-4 w-100 d-flex flex-wrap">
+                            <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <label for="History-type-4">نوع سوابق و فعالیت ها</label>
+                                <select class="custom-select" id="History-type-4" required>
+                                    <option selected value="فرهنگی">فرهنگی</option>
+                                    <option value="قران-نهج البلاغه">قران-نهج البلاغه</option>
+                                    <option value="تربیتی">تربیتی</option>
+                                    <option value="حقوقی">حقوقی</option>
+                                    <option value="هنری رسانه ای">هنری رسانه ای</option>
+                                    <option value="رایانه">رایانه</option>
+                                    <option value="ورزشی">ورزشی</option>
+                                    <option value="زبان خارجی">زبان خارجی</option>
+                                    <option value="اجرایی">اجرایی</option>
+                                    <option value="اداری">اداری</option>
+                                    <option value="اداری">اداری</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="timer-6">مدت زمان</label>
+                                    <input type="text" class="form-control" id="timer-6" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-9 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap">
+                                <div class="w-100">
+                                    <label for="Description-7">توضیحات</label>
+                                    <input type="text" class="form-control" id="Description-7" aria-describedby="family">
+                                </div>
+                            </div>
+                            <div class="form-group col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                <button type="button" class="btn btn-outline-success">افزودن</button>
+
+                            </div>
+                            <table class="table">
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">id</th>
+                                    <th scope="col">عنوان فعالیت</th>
+                                    <th scope="col">مدت زمان</th>
+                                    <th scope="col">توضیحات</th>
+                                    <th scope="col" class="text-center">عملیات</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>عنوان اول</td>
+                                    <td>۲۰ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>عنوان دوم</td>
+                                    <td>۲ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>عنوان سوم</td>
+                                    <td>۳ ساعت</td>
+                                    <td>اینجا توضیحات قرار میگیرد</td>
+                                    <td class="text-center">
+                                        <a href="" class="btn btn-outline-danger font-size-12 py-0">حذف</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="upload-box w-100 px-3">
+                            <div class="position-relative my-4 px-2 d-flex flex-wrap w-100 py-4">
+                                <h5 class="position-absolute bg-white px-2">فایل ها</h5>
+                                <div class="form-group col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end flex-wrap">
+                                    <button type="button" class="btn btn-outline-info upload-btn position-relative ml-1">
+                                        آپلود عکس
+                                        <input type="file" class="custom-file-input position-absolute" id="customFile-6">
+                                    </button>
+                                    <div class="form-group col-xl-7 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center flex-wrap mb-0">
+                                        <div class="w-100 d-flex">
+                                            <label for="Description-8" class="pl-3 d-flex align-items-center pt-1">توضیحات</label>
+                                            <input type="text" class="form-control" id="Description-8" aria-describedby="family">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-success mr-2">افزودن</button>
+
+                                </div>
+                                <ul class="d-flex flex-wrap uploaded-img" data-add-to-modal="img-modal">
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17 d-none">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(7).jpg" alt="img" class="w-100 this-img cursor-pointer">
+                                            </div>
+                                            <div class="uploaded-content p-2 w-100 d-flex flex-wrap flex-2">
+                                                <p>توضیحات</p>
+                                                <div class="w-100 d-flex justify-content-between align-items-end">
+                                                    <span>۲۶/۵/۱۳۹۹</span>
+                                                    <span class="color-malachite">تایید</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex mb-4">
+                                        <div class="d-flex flex-wrap align-items-start flex-column">
+                                            <div class="position-relative">
+                                                <a href="" class="position-absolute delete px-2 border-radius-17">حذف عکس</a>
+                                                <img src="assets/img/uploaded/Img%20(5).jpg" alt="img" class="w-100 this-img cursor-pointer">
                                             </div>
                                             <div class="uploaded-content p-2 w-100 flex-2">
                                                 <p>توضیحات </p>

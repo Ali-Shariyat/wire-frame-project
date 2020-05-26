@@ -1139,6 +1139,14 @@ ul li {
 //==========================================
 //custom control
 //==========================================
+.upload-btn{
+  .add-file{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+}
 .custom-radio {
   .custom-control-input {
     &:checked {

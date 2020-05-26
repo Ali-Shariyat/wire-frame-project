@@ -1062,6 +1062,13 @@ ul li {
   transform: translate(0, -50%);
 }
 
+.upload-btn .add-file {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #FA4252;
 }
@@ -1281,6 +1288,9 @@ textarea.form-control::-ms-input-placeholder {
 .form-ctrl .form-sidebar li.active a {
   border-right: 2px solid #bf4c2f;
 }
+.form-ctrl .custom-form .avatar > div {
+  border: 1px solid #000;
+}
 .form-ctrl .custom-form .avatar > div input {
   top: 0;
   left: 0;
@@ -1339,6 +1349,9 @@ textarea.form-control::-ms-input-placeholder {
 }
 .profile-CV .profile-main .upload-box > div .uploaded-img li > div .delete:hover {
   background-color: #fff;
+}
+.profile-CV .profile-main > ul > li:not(.active) {
+  display: none !important;
 }
 
 .list-of-suggested-designs .title {

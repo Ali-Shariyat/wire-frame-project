@@ -59,5 +59,10 @@
         }
       }
     }
+    > ul{
+      > li:not(.active){
+        display: none !important;
+      }
+    }
   }
 }
