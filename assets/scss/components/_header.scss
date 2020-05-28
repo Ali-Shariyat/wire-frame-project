@@ -1,0 +1,10 @@
+header{
+  .xl-head{
+    box-shadow: 0 0 8px -3px #6b6b6b;
+    .menu{
+      .active{
+        border-bottom: 2px solid $color-coral-red;
+      }
+    }
+  }
+}

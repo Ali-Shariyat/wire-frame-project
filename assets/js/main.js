@@ -34,3 +34,22 @@ $(".profile-sidebar .profile-tabs li a").click(function (e) {
     _self.parents(".profile-sidebar").siblings(".profile-main").find("> ul > li").eq(_self.parents("li").index()).addClass("active").siblings("li").removeClass("active");
     e.preventDefault();
 });
+$(".custom-dropdown .head").attr("set-toggle","0");
+$(".custom-dropdown .head:not(.stop)").click(function () {
+    var _self = $(this);
+    if(eval(_self.attr("set-toggle")) == 0){
+        $(this).siblings(".sub-dropdown").stop().slideDown();
+        _self.find("span").text("-")
+        _self.attr("set-toggle","1");
+    }else if(eval(_self.attr("set-toggle")) == 1){
+        $(this).siblings(".sub-dropdown").stop().slideUp();
+        _self.find("span").text("+")
+        _self.attr("set-toggle","0");
+    }
+});
+$(".custom-dropdown .head:not(.stop)").each(function () {
+    var _self = $(this);
+    if(_self.siblings(".sub-dropdown.show").length){
+        _self.trigger("click");
+    }
+});

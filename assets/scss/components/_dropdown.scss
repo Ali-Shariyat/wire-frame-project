@@ -1,0 +1,41 @@
+.custom-dropdown{
+  li{
+    &::before{
+      content: "";
+      width: 2px;
+      background-color: #000;
+      right: 0;
+      top: 22px;
+      bottom: 14px;
+      position: absolute;
+    }
+    .sub-dropdown{
+      display: none;
+       li{
+         .head{
+           &::after{
+             content: "";
+             width: 17px;
+             background-color: #000;
+             height: 2px;
+             position: absolute;
+             top: calc(50% - 1px);
+             transform: translate(0, -50%);
+             right: -22px;
+           }
+         }
+       }
+    }
+  }
+  .head{
+    user-select: none;
+    span{
+      border: 1px solid #000;
+      border-radius: 50px;
+      width: 20px;
+      height: 20px;
+      line-height: 0;
+      padding: 5px 0 4px 1px;
+    }
+  }
+}

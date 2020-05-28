@@ -1,0 +1,35 @@
+footer {
+  //border-top: 3px solid $color-coral-red;
+  .footer-sidebar-right {
+    li {
+      i {
+        min-width: 41px;
+        text-align: center;
+      }
+    }
+  }
+  .footer-logo{
+    img{
+
+      width: 100%;
+      border-radius: 20px;
+      padding: 5px 12px;
+    }
+  }
+  .footer-content-title {
+    border-bottom: 3px solid $color-white;
+  }
+  .footer-content {
+    a {
+      &:hover {
+        //color: $color-coral-red;
+      }
+    }
+  }
+  .map-image-main{
+    border-radius: 0 65px 65px 65px;
+  }
+}
+.sub-footer{
+  background-color: $color-tundora;
+}

@@ -1269,6 +1269,13 @@ textarea.form-control::-ms-input-placeholder {
   height: 30px;
 }
 
+header .xl-head {
+  box-shadow: 0 0 8px -3px #6b6b6b;
+}
+header .xl-head .menu .active {
+  border-bottom: 2px solid #FA4252;
+}
+
 .form-ctrl {
   border: 1px solid #737373;
 }
@@ -1306,6 +1313,7 @@ textarea.form-control::-ms-input-placeholder {
 .profile-CV .profile-sidebar .avatar {
   width: 60px;
   height: 60px;
+  border: 1px solid #000;
 }
 .profile-CV .profile-sidebar .profile-tabs li a {
   border-radius: 50px 0 0 50px;
@@ -1398,6 +1406,60 @@ textarea.form-control::-ms-input-placeholder {
 }
 .custom-modal .flickity-page-dots .dot {
   background-color: #FA4252;
+}
+
+.custom-dropdown li::before {
+  content: "";
+  width: 2px;
+  background-color: #000;
+  right: 0;
+  top: 22px;
+  bottom: 14px;
+  position: absolute;
+}
+.custom-dropdown li .sub-dropdown {
+  display: none;
+}
+.custom-dropdown li .sub-dropdown li .head::after {
+  content: "";
+  width: 17px;
+  background-color: #000;
+  height: 2px;
+  position: absolute;
+  top: calc(50% - 1px);
+  transform: translate(0, -50%);
+  right: -22px;
+}
+.custom-dropdown .head {
+  user-select: none;
+}
+.custom-dropdown .head span {
+  border: 1px solid #000;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  line-height: 0;
+  padding: 5px 0 4px 1px;
+}
+
+footer .footer-sidebar-right li i {
+  min-width: 41px;
+  text-align: center;
+}
+footer .footer-logo img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px 12px;
+}
+footer .footer-content-title {
+  border-bottom: 3px solid #fff;
+}
+footer .map-image-main {
+  border-radius: 0 65px 65px 65px;
+}
+
+.sub-footer {
+  background-color: #474747;
 }
 
 /*# sourceMappingURL=main.css.map */
